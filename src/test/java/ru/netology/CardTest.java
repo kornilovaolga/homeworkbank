@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class cardtest {
+public class CardTest {
     private WebDriver driver;
 
 
@@ -118,6 +118,6 @@ public class cardtest {
         String actual = driver.findElement(By.cssSelector("[data-test-id='name'].input_invalid .input__sub")).getText();
         assertEquals(expected, actual);
     }
-
-
 }
+
+
